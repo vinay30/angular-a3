@@ -1,0 +1,23 @@
+.site-nav {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    list-style: none;
+    height: 70px;
+    padding-top: 15px;
+    background-color: #039FD3;
+    box-sizing: border-box;
+}
+
+.site-nav a {
+    text-decoration: none;
+    margin: 0 5%;
+    color: #8ADBF6;
+    box-sizing: border-box;
+    border-top: 2px solid transparent;
+    height: 100%;
+}
+
+.site-nav a:hover {
+    border-top: 2px solid #8ADBF6;
+}

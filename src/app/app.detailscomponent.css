@@ -1,0 +1,11 @@
+tr td:first-child {
+    font-weight: bold;
+}
+
+tr td:nth-child(2) {
+    text-align: right;
+}
+
+td {
+    font-size: 2rem;
+}

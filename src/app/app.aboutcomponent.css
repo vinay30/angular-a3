@@ -1,0 +1,23 @@
+.assignment-info-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.assignment-info-image img {
+    height: 100px;
+}
+
+.assignment-info-image p {
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-position: outside;
+}
+
+li {
+    margin-bottom: 1.5rem;
+    margin-left: -10px;
+    padding-left: 10px;
+}

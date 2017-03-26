@@ -1,0 +1,60 @@
+<div class="container">
+<h2 class="page-title">{{ title }}</h2>
+
+<h4>This app was built using the following concepts from Angular 2:</h4>
+<ul>
+    <li>
+        Routing (provided by the Activated Route, Router, and Params components which is used in the Master/Detail view)
+    </li>
+    <li>
+        Modules (containing the needed components for http requests, among other features)
+    </li>
+    <li>
+        Services (custom service written to retrieve data from a local .json file)
+    </li>
+    <li>
+        Dependency Injection (to allow our custom data service to be used by modules/components throughout the app)
+    </li>
+    <li>
+        Components and Templates (four main components that encapsulate the logic, view (templates) and styles for each section of the app and keep them isolated)
+    </li>
+    <li>
+        Observables (used in the data retrieval service so that our views will update whenever new data is received from the external source)
+    </li>
+    <li>
+        Decorators: Injectable, Component, NgModule functions are used to add important meta-data to our classes, turning them into components.
+    </li>
+    <li>
+        Class syntax to create custom object types (FoodItem type is made available by exporting the custom FoodItem class)
+    </li>
+    <li>
+        Views (child views to display the food list (master and detail) and this about page)
+    </li>
+    <li>
+        Data-binding: One way binding of click events (HTML to JS app).
+    </li>
+</ul>
+
+<h4>Additionally, the styles use:</h4>
+<ul>
+    <li>
+        Skeleton CSS framework (a light-weight CSS framwork containing a grid and various button and form styles)
+    </li>
+    <li>
+        Normalize CSS (included with Skeleton)
+    </li>
+    <li>
+        Imported <strong>Raleway</strong> font from Google.
+    </li>
+    <li>
+        Custom styles for colors (using Paletton tool), navigation, and hover effects
+    </li>
+</ul>
+<div class="assignment-info-image">
+    <div class="assignment-info">
+        <p>{{ assignment }}</p>
+        <p>{{ student }}</p>
+        <p>{{ date | date: 'medium' }}</p>
+    </div>
+</div>
+</div>

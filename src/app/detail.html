@@ -1,0 +1,20 @@
+<div *ngIf="food" class="container">
+    <h2 class="page-title">{{ food.name }} Details</h2>
+    <table>
+        <tr>
+            <td>Product ID: </td><td>{{ food.id }}</td>
+        </tr>
+        <tr>
+            <td>Product Name: </td><td>{{ food.name }}</td>
+        </tr>
+        <tr>
+            <td>Manufacturer: </td><td>{{ food.mfg }}</td>
+        </tr>
+        <tr>
+            <td>Quantity: </td><td>{{ food.qty }}</td>
+        </tr>
+        <tr>
+            <td>Pack Size: </td><td>{{ food.pkg }}</td>
+        </tr>
+    </table>
+</div>

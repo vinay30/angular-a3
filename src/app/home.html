@@ -1,0 +1,8 @@
+<div class="container">
+    <h2 class="page-title">{{ vendor }} Product List</h2>
+    <ul class="home-list" *ngIf="foods">
+        <li *ngFor="let food of foods" (click)="onSelect(food)">
+            <a class="home-list--id" routerLinkActive="active">{{ food.id }}</a><span class="home-list--name">{{ food.name }}</span><br />
+        </li>
+    </ul>
+</div>

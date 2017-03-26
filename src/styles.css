@@ -1,0 +1,11 @@
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+
+.page-title {
+    border-bottom: 2px solid #8ADBF6;
+    display: inline-flex;
+    margin-top: 30px;
+}

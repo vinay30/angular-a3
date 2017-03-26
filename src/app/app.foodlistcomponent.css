@@ -1,0 +1,29 @@
+.home-list {
+    list-style: none;
+    font-size: 2.5rem;
+    width: 200px;
+}
+
+.home-list li {
+    transition: background-color 0.8s;
+}
+
+.home-list li:hover {
+    background-color: #8ADBF6;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+.home-list--name {
+    height: 100%;
+    transition: color ease-in-out 0.25s;
+}
+
+.home-list--name:hover {
+    color: #039FD3;
+}
+
+.home-list--id {
+    margin-right: 15px;
+    margin-left: 15px;
+}
